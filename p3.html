@@ -1,0 +1,38 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="q.css">
+	
+
+	</head>
+
+	<body>
+	<div class="container">
+	 <ul>
+	
+	  <li><a href='index.html'>Home</a></li>
+	  <li><a href="#about">About</a></li>
+	  <li style ="float: right"><a class="active">The Quiz times</a></li>
+	 
+	 </ul>
+	 
+	 
+	 <img src="images.jpg">
+	 <br>
+<div id="c" >
+<br>
+	<div id="questionss"></div>
+	<br>
+	 <label class="option"><input type="radio" name="option" value="1"/><span class="p" id="option1"></span></label>
+	  <label class="option"><input type="radio" name="option" value="2"/><span class="p" id="option2"></span></label>
+	   <label class="option"><input type="radio" name="option" value="3"/><span class="p" id="option3"></span></label>
+	    <label class="option"><input type="radio" name="option" value="4"/><span class="p" id="option4"></span></label>
+	   
+    </div>
+     <div id="results" style="display: none;"></div>
+	 <br>
+<button id="nextbutton" class="next-btn" onclick="loadNext();">Next Question</button>
+	  <script src="questions.js"></script>
+	  <script src="qscript.js"></script>
+	  </div>
+	</body>
+</html>
